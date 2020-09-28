@@ -15,6 +15,7 @@ const Search = () => {
     /* 이 두 속성은 static에서는 줄 수 없다 */
     padding: 20px 30px;
     /* 세로 가로 각각 들어감 20 30 20 30이랑 같음(12, 3, 6 ,9) */
+    box-shadow: 0 2px 2px 0 rgb(214, 214, 214);
   `;
 
   const SearchTitleStyle = styled.div`
