@@ -34,3 +34,21 @@
 ### 라이브러리
 
 - npm install --save styled-components
+
+### Git 관리
+
+- git init
+- git add .
+- git commit -m "1. v1"
+
+- github에 저장소 만들기 (www.hello.com)
+- git remote add origin www.hello.com
+
+- git push origin master
+<!-- 여기서 project 전체가 올라가는게 아니다 .ignore에 맞게 제외 -->
+
+- git pull origin master
+
+<!-- 최초에 다운로드 받았을 때 꼭 해야하는 것 -->
+
+- npm install (의존성 라이브러리 다운로드, node modules download, 최초에는 소스파일만 있고 lib가 없는데 이걸하면 다운)
